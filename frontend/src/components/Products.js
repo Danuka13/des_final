@@ -12,8 +12,7 @@ export default function Products() {
     const getProducts = async (e) => {
 
         try {
-            const res = await fetch("des-final-danuka13s-projects.vercel.app
-/products", {
+            const res = await fetch("des-final-danuka13s-projects.vercel.app/products", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json"
@@ -36,8 +35,7 @@ export default function Products() {
 
     const deleteProduct = async (id) => {
 
-        const response = await fetch(`des-final-danuka13s-projects.vercel.app
-/deleteproduct/${id}`, {
+        const response = await fetch(`des-final-danuka13s-projects.vercel.app/deleteproduct/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"

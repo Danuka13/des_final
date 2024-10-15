@@ -34,8 +34,7 @@ export default function InsertProduct() {
         setError("");
 
         try {
-            const res = await fetch("des-final-danuka13s-projects.vercel.app
-/insertproduct", {
+            const res = await fetch("des-final-danuka13s-projects.vercel.app/insertproduct", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

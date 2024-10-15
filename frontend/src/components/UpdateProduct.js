@@ -27,8 +27,7 @@ export default function InsertProduct() {
     useEffect(() => {
         const getProduct = async () => {
           try {
-            const res = await fetch(`des-final-danuka13s-projects.vercel.app
-/products/${id}`, {
+            const res = await fetch(`des-final-danuka13s-projects.vercel.app/products/${id}`, {
               method: "GET",
               headers: {
                 "Content-Type": "application/json"
